@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Phản Hồi"
+        android:icon="@drawable/iconchat"
+        app:showAsAction="ifRoom"
+        android:id="@+id/showcomplain"
+        />
+    <item
+        android:title="Quay lại"
+        android:icon="@drawable/iconback"
+        app:showAsAction="ifRoom"
+        android:id="@+id/back"/>
+</menu>

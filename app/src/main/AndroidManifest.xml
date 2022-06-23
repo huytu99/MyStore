@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mystore">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyStore">
+        <activity android:name=".Admin.Complain"></activity>
+        <activity android:name=".Admin.BillStore" />
+        <activity android:name=".Admin.ListSP" />
+        <activity android:name=".Admin.StoreManager" />
+        <activity android:name=".Admin.VertifiCode" />
+        <activity android:name=".Admin.VertifiPhone" />
+        <activity android:name=".Admin.Login" />
+        <activity android:name=".MainActivity.DataBill" />
+        <activity android:name=".ThanhToanDonHang.HoaDonKhachHang" />
+        <activity android:name=".ThanhToanDonHang.ThongTinKhacHang" />
+        <activity android:name=".MainActivity.DetailItem" />
+        <activity android:name=".LapTop.LapTop" />
+        <activity android:name=".Ipad.Ipad" />
+        <activity android:name=".DienThoai.DienThoai" />
+        <activity android:name=".Airpods.Airpods" />
+        <activity android:name=".MainActivity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity.TrangChu" />
+    </application>
+
+</manifest>
